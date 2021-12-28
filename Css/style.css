@@ -670,23 +670,25 @@ footer p{
 
 @media (max-width: 576px) {
 
+    .TEXT-ALIGN{
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
     #text-primary{
         font-size: 25px !important;
-        
     }
 
     #TXT-INDEX{
         font-size: 18PX !important;
-        
     }
 
-    
     #carouselExampleIndicators2{
-        width: 320px !important;
+        width: 480px !important;
     }
     
     #carouselExampleIndicators{
-        width: 320px !important;
+        width: 500px !important;
     }
 
     #servicios-fila-2 {
@@ -741,11 +743,6 @@ footer p{
          box-shadow: 1px 1px 5px rgba(79, 79, 79, 0.5);
          width: 500px !important;
          height: 350px !important;
-      }
-     
-      #glamp{
-         width: 300px;
-         height: 120px;
       }
      
       #TEXT-BTN{
