@@ -72,6 +72,18 @@ body::-webkit-scrollbar-thumb{
 }
 
 
+#BTN-ACERC{
+    transition: 500ms;
+}
+
+#BTN-ACERC:hover{
+    background-color: white;
+    color: black;
+
+    
+}
+
+
 /*===================BATEAS==========================*/
 .TIP-BAT{
     font-weight: bold;
@@ -94,20 +106,35 @@ body::-webkit-scrollbar-thumb{
   
     
 }
-
+#TEXT-BTN{
+   transition: 500ms;
+}
+#TEXT-BTN2{
+    transition: 500ms;
+ }
+ #TEXT-BTN3{
+    transition: 500ms;
+ }
+ #TEXT-BTN4{
+    transition: 500ms;
+ }
 
 
 #TEXT-BTN:hover{
-    background-color: #1b2a4e;
+    background-color: white;
+    color: black;
 }
 #TEXT-BTN2:hover{
-    background-color: #1b2a4e;
+    background-color: white;
+    color: black;
 }
 #TEXT-BTN3:hover{
-    background-color: #1b2a4e;
+    background-color: white;
+    color: black;
 }
 #TEXT-BTN4:hover{
-    background-color: #1b2a4e;
+    background-color: white;
+    color: black;
 }
 
 
@@ -121,6 +148,12 @@ body::-webkit-scrollbar-thumb{
 }
 
 #cardsIMG{
+    box-shadow: 1px 1px 5px rgba(79, 79, 79, 0.5);
+   width: 600px !important;
+   height: 750px !important;
+}
+
+#cardsIMG4{
     box-shadow: 1px 1px 5px rgba(79, 79, 79, 0.5);
    width: 600px !important;
    height: 750px !important;
@@ -196,12 +229,20 @@ body::-webkit-scrollbar-thumb{
 
 
 /*=========================CUBRE PILETAS IMAGENES================================*/
-
+.PILETAS{
+  
+    
+    margin-bottom: 18rem;
+    
+    
+}
 .text-piletas{
  text-align: center;
 }
 .galeria {
-   
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 	display: flex;
 	width: 88%;
 	margin: auto;
@@ -275,7 +316,7 @@ body::-webkit-scrollbar-thumb{
 
 
 .Container-piletas{
-    margin-bottom: 400px;
+    margin-bottom: 100px;
 }
 
 
@@ -288,16 +329,40 @@ footer {
 footer p{
     color:#f3f3f3;
     text-align:center;
+    padding-top: 3rem;
 }
-#iconos  i {
-    font-size: 26px;
-    padding: 0 8px;
-    color:#f3f3f3;
+
+#iconos  a > img {
+    width: 50px !important;
+    display: inline-block !important;
+    padding: 3px;
+    transition: 500ms;
+    
+
+    
+    
 }
+
+#iconos  a > img:hover{
+    transform: translateY(-10px);
+}
+
+/*=========================GO-TOP================================*/
+
+
+
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
+    #carouselExampleIndicators{
+        width: 600px !important;
+    }
+
+    #carouselExampleIndicators2{
+        width: 600px !important;
+    }
+    
     
     #intro, #equipo {
         width:90% !important;
@@ -313,23 +378,118 @@ footer p{
     margin:auto;
     padding-top:50px;    
    }
+
+   footer {
+    
+    
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    
+    color:#ffffff;
+    text-align:center;
+    padding-top: 3rem !important;
+    padding-left: 9.22rem !important;
+}
+
+#iconos  a img {
+    width: 50px !important;
+    display: inline-block;
+    align-items: center;
+    margin: auto !important;
+    transition: 500ms;
+    
+
+    
+    
+}
+
    
  
 }
 
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
+@media (max-width:868px) {
+
+    
+ 
+    
+footer {
+    background: #1b2a4e;
+    min-height: 100px;;
+}
+footer p{
+    color:#fffafa;
+    text-align:center;
+    padding-top: 3rem !important;
+    padding-left: 0.1rem !important;
+}
+
+#iconos  a img {
+    width: 50px !important;
+    
+    margin: auto !important;
+    transition: 500ms;
+    
+
+    
+    
+}
+
+#iconos  a > img:hover{
+    transform: translateY(-10px);
+}
+
+    
+}
 
 
 @media (max-width:768px) {
+    
+    footer {
+        background: #1b2a4e;
+        min-height: 100px;;
+    }
+    footer p{
+        color:#ffffff;
+        text-align:center;
+        padding-top: 3rem !important;
+        padding-left: 0.1rem !important;
+    }
+
+
+    
+    #iconos  a img {
+        width: 50px !important;
+        
+        margin: auto !important;
+        transition: 500ms;
+        
+    
+        
+        
+    }
+    
+    #iconos  a > img:hover{
+        transform: translateY(-10px);
+    }
+
+ 
+    
+
     .TEXT-ALIGN{
         font-size: 1rem;
         padding-left: 1rem;
         padding-right: 1rem;
     }    
 
+   
+    #carouselExampleIndicators2{
+        width: 550px !important; 
+    }
     #carouselExampleIndicators{
-        width: 350px !important;
-       
+        width: 550px !important; 
     }
 
     #MAPA{
@@ -391,6 +551,11 @@ footer p{
         top: -120px;
     }
     #cardsIMG{
+        box-shadow: 1px 1px 5px rgba(79, 79, 79, 0.5);
+       width: 600px !important;
+       height: 750px !important;
+    }
+    #cardsIMG4{
         box-shadow: 1px 1px 5px rgba(79, 79, 79, 0.5);
        width: 600px !important;
        height: 750px !important;
@@ -504,6 +669,26 @@ footer p{
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/ 
 
 @media (max-width: 576px) {
+
+    #text-primary{
+        font-size: 25px !important;
+        
+    }
+
+    #TXT-INDEX{
+        font-size: 18PX !important;
+        
+    }
+
+    
+    #carouselExampleIndicators2{
+        width: 320px !important;
+    }
+    
+    #carouselExampleIndicators{
+        width: 320px !important;
+    }
+
     #servicios-fila-2 {
         width:100% !important;
     }
@@ -540,6 +725,12 @@ footer p{
         width: 500px !important;
         height: 350px !important;
      }
+
+     #cardsIMG4{
+        box-shadow: 1px 1px 5px rgba(79, 79, 79, 0.5);
+       width: 500px !important;
+       height: 350px !important;
+    }
      #cardsIMG2{
          box-shadow: 1px 1px 5px rgba(79, 79, 79, 0.5);
          width: 500px !important;
@@ -590,3 +781,45 @@ footer p{
         transform: translate(-100%);
     }
 }
+
+
+
+/*=========================MOVER-INDEX================================*/
+
+@keyframes mover-text-primary{
+    0%{
+        transform: translateY(100%);
+    }
+}
+
+
+
+@keyframes mover-carrousel{
+    0%{
+        transform: translateY(100%);
+    }
+}
+
+
+@keyframes mover-txt-index{
+    0%{
+        transform: translateY(100%);
+    }
+}
+
+
+@keyframes mover-btn-acerc{
+    0%{
+        transform: translateY(100%);
+    }
+}
+
+/*=========================MOVER-CARDS-INDEX================================*/
+@keyframes mover-card1{
+    0%{
+        transform: translateY(100%);
+    }
+}
+
+
+
