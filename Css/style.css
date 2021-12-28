@@ -682,9 +682,11 @@ footer p{
     #TXT-INDEX{
         font-size: 18PX !important;
     }
+   
 
     #carouselExampleIndicators2{
-        width: 400px !important;
+        
+        width: 310px !important;
     }
     
     #carouselExampleIndicators{
