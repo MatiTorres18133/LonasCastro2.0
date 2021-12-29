@@ -322,6 +322,7 @@ body::-webkit-scrollbar-thumb{
 
 /*=========================FOOTER================================*/
 
+
 footer {
     background: #1b2a4e;
     min-height: 100px;;
@@ -404,6 +405,10 @@ footer p{
     
     
 }
+
+
+
+
 
    
  
@@ -690,7 +695,7 @@ footer p{
     }
     
     #carouselExampleIndicators{
-        width: 400px !important;
+        width: 340px !important;
     }
 
     #servicios-fila-2 {
@@ -754,6 +759,8 @@ footer p{
       #BTN-ACERC{
           width: 15rem !important;
       }
+
+      
      
      
     
