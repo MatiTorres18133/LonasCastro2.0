@@ -675,6 +675,11 @@ footer p{
 
 @media (max-width: 576px) {
 
+    #intro h1{
+        font-size: 2rem !important;
+        padding: 1rem 0 !important;
+    }
+
     .TEXT-ALIGN{
         padding-left: 0.5rem;
         padding-right: 0.5rem;
@@ -753,8 +758,17 @@ footer p{
       }
      
       #TEXT-BTN{
-          font-size: 14px;
+          font-size: 12px;
       }
+      #TEXT-BTN2{
+        font-size: 12px;
+    }
+    #TEXT-BTN3{
+        font-size: 12px;
+    }
+    #TEXT-BTN4{
+        font-size: 12px;
+    }
 
       #BTN-ACERC{
           width: 15rem !important;
@@ -766,7 +780,6 @@ footer p{
     
     
 }
-
 
 
 /*=========================KEYFRAMES================================*/
