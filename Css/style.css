@@ -18,9 +18,19 @@ body::-webkit-scrollbar-thumb{
 
 /*===================MENU==========================*/
 
-#IMG-NAV{
-    width: 80px !important;
+#header{
+    margin-bottom: 0.5rem !important;
 }
+
+#IMG-NAV{
+    width: 180px !important;
+    background-color: transparent;
+    border: none;
+    
+    
+    
+}
+
 
  #menu a, button{
      font-size: 18px !important;
@@ -33,20 +43,19 @@ body::-webkit-scrollbar-thumb{
      
  }
 
- .sendWpp{
+ #sendWap{
      color: white;
      text-decoration: none;
      transition: 500ms
  }
 
- .sendWpp:hover{
-    color: rgb(130, 129, 129)
-    
-}
+ #sendWap:hover{
+     color: red !important;
+ }
 
 
 #navbarSupportedContent li a:hover{
-    color: #678feb !important;
+    color: red !important;
 }
 
 .typed{
@@ -222,13 +231,14 @@ body::-webkit-scrollbar-thumb{
 }
 
 #equipo2{
-    background-color: #e0dddd;
-    margin-bottom: 200px;
+    
+    margin-bottom: 100px;
     padding: 30px;
 }
 
 
 /*=========================CUBRE PILETAS IMAGENES================================*/
+
 .PILETAS{
   
     
@@ -315,7 +325,11 @@ body::-webkit-scrollbar-thumb{
 }
 
 
+
+
 .Container-piletas{
+    
+    
     margin-bottom: 100px;
 }
 
@@ -356,6 +370,9 @@ footer p{
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
+
+
+  
     #carouselExampleIndicators{
         width: 600px !important;
     }
@@ -416,9 +433,11 @@ footer p{
 
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 @media (max-width:868px) {
-
     
- 
+    #sendWap{
+        display: none !important;
+    }
+  
     
 footer {
     background: #1b2a4e;
@@ -451,6 +470,8 @@ footer p{
 
 
 @media (max-width:768px) {
+   
+   
     
     footer {
         background: #1b2a4e;
@@ -674,6 +695,14 @@ footer p{
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/ 
 
 @media (max-width: 576px) {
+  
+
+  
+    
+   
+
+    
+    
 
     #intro h1{
         font-size: 2rem !important;
