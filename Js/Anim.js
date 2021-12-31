@@ -57,7 +57,7 @@ window.addEventListener("scroll", function(){
 
 
     if(posticionObj1 < tamañoDePantalla){
-        animacion.style.animation="mover-text-primary 0.5s ease-out"
+        animacion.style.animation="mover-text-primary 1.2s ease-out"
     }
 
 })
@@ -87,7 +87,7 @@ window.addEventListener("scroll", function(){
 
 
     if(posticionObj1 < tamañoDePantalla){
-        animacion.style.animation="mover-txt-index 0.5s ease-out"
+        animacion.style.animation="mover-txt-index 1.2s ease-out"
     }
 
 })
@@ -168,6 +168,43 @@ window.addEventListener("scroll", function(){
 
     if(posticionObj1 < tamañoDePantalla){
         animacion.style.animation="mover-card1 1s ease-out"
+    }
+
+})
+
+
+
+
+window.addEventListener("scroll", function(){
+
+    let animacion =this.document.getElementById("carru1");
+    let posticionObj1= animacion.getBoundingClientRect().top;
+    console.log(posticionObj1);
+    let tamañoDePantalla= window.innerHeight;
+
+
+    if(posticionObj1 < tamañoDePantalla){
+        animacion.style.animation="mover 1s ease-out"
+    }
+
+})
+
+
+
+
+
+
+
+window.addEventListener("scroll", function(){
+
+    let animacion =this.document.getElementById("carru2");
+    let posticionObj1= animacion.getBoundingClientRect().top;
+    console.log(posticionObj1);
+    let tamañoDePantalla= window.innerHeight;
+
+
+    if(posticionObj1 < tamañoDePantalla){
+        animacion.style.animation="mover2 1s ease-out"
     }
 
 })
