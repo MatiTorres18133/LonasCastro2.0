@@ -177,7 +177,7 @@ window.addEventListener("scroll", function(){
 
 window.addEventListener("scroll", function(){
 
-    let animacion =this.document.getElementById("carru1");
+    let animacion =this.document.getElementById("carouselExampleFade3");
     let posticionObj1= animacion.getBoundingClientRect().top;
     console.log(posticionObj1);
     let tamañoDePantalla= window.innerHeight;
@@ -197,7 +197,7 @@ window.addEventListener("scroll", function(){
 
 window.addEventListener("scroll", function(){
 
-    let animacion =this.document.getElementById("carru2");
+    let animacion =this.document.getElementById("carouselExampleFade4");
     let posticionObj1= animacion.getBoundingClientRect().top;
     console.log(posticionObj1);
     let tamañoDePantalla= window.innerHeight;
