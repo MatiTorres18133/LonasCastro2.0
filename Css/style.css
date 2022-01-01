@@ -125,6 +125,13 @@ body::-webkit-scrollbar-thumb{
     
 }
 
+.cards-trabajos6{
+    margin-bottom: 10rem;
+   
+   display: flex;
+  
+    
+}
 
 
 
@@ -177,7 +184,7 @@ body::-webkit-scrollbar-thumb{
 
 
 .cards-trabajos2{
-    margin-bottom: 400px;
+    margin-bottom: 200px;
     
     
     display: flex;
@@ -269,6 +276,17 @@ body::-webkit-scrollbar-thumb{
     background: url('../IMG/BG.png') #000 no-repeat center center ;
    
     background-size: cover;
+    
+    
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    
+}
+
+
+#equipo4{
+   
     
     
     margin-bottom: 30px;
@@ -387,15 +405,7 @@ body::-webkit-scrollbar-thumb{
 /*=========================FOOTER================================*/
 
 
-footer {
-    background: #000000ea;
-    min-height: 100px;;
-}
-footer p{
-    color:#f3f3f3;
-    text-align:center;
-    padding-top: 3rem;
-}
+
 
 #iconos  a > img {
     width: 50px !important;
@@ -451,19 +461,7 @@ footer p{
     padding-top:50px;    
    }
 
-   footer {
-    
-    
-    background: #1b2a4e;
-    min-height: 100px;;
-}
-footer p{
-    
-    color:#ffffff;
-    text-align:center;
-    padding-top: 3rem !important;
-    padding-left: 9.22rem !important;
-}
+   
 
 #iconos  a img {
     width: 50px !important;
@@ -487,6 +485,12 @@ footer p{
 
 /*=========================MEDIA QUERIES PANTALLA SM================================*/
 @media (max-width:868px) {
+
+
+    #card2{
+        margin-top: 3rem !important;
+    }
+
     #carru1{
         width: 100% !important;
     }
@@ -494,6 +498,12 @@ footer p{
         width: 100% !important;
     }
     .cards-trabajos5{
+        
+        display:inline;
+        margin: auto;
+        
+    }
+    .cards-trabajos6{
         
         display:inline;
         margin: auto;
@@ -516,16 +526,7 @@ footer p{
     }
   
     
-footer {
-    background: #1b2a4e;
-    min-height: 100px;;
-}
-footer p{
-    color:#fffafa;
-    text-align:center;
-    padding-top: 3rem !important;
-    padding-left: 0.1rem !important;
-}
+
 
 #iconos  a img {
     width: 50px !important;
@@ -557,16 +558,7 @@ footer p{
    
    
     
-    footer {
-        background: #1b2a4e;
-        min-height: 100px;;
-    }
-    footer p{
-        color:#ffffff;
-        text-align:center;
-        padding-top: 3rem !important;
-        padding-left: 0.1rem !important;
-    }
+
 
 
     
@@ -955,3 +947,175 @@ footer p{
 }
 
 
+
+
+/*=========================FOOTER================================*/
+
+
+
+#start{
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100px !important;
+}
+
+footer{
+    
+    bottom: 0px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+  }
+  .main-content{
+    background: url('../IMG/BG.png') #000 no-repeat center center ;
+   
+    background-size: cover;
+    
+    
+
+    display: flex;
+  }
+  .main-content .box{
+    flex-basis: 50%;
+    padding: 10px 20px;
+  }
+  .box h2{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  .box .content{
+    margin: 20px 0 0 0;
+    position: relative;
+  }
+  .box .content:before{
+    position: absolute;
+    content: '';
+    top: -10px;
+    height: 2px;
+    width: 100%;
+    background: #1a1a1a;
+  }
+  .box .content:after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 15%;
+    background: #f12020;
+    top: -10px;
+  }
+  .left .content p{
+    text-align: justify;
+  }
+  .left .content .social{
+    margin: 20px 0 0 0;
+  }
+  .left .content .social a{
+    padding: 0 2px;
+  }
+  .left .content .social a span{
+      color: white;
+    height: 40px;
+    width: 40px;
+    background: #1a1a1a;
+    line-height: 40px;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  .left .content .social a span:hover{
+      transform: translateY(-8px);
+    background: #f12020;
+  }
+  .center .content .fas{
+      color: white;
+    font-size: 1rem;
+    background: #000000;
+    height: 40px;
+    width: 40px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .content h5{
+      font-size: 15px !important;
+     
+      
+  }
+  .center .content .fas:hover{
+    background: #f12020;
+  }
+  .center .content .text{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+  }
+  .center .content .phone{
+    margin: 15px 0;
+  }
+  .btn a{
+      width: 15rem;
+  }
+  .btn a:hover{
+      color: black;
+      background-color: white;
+
+  }
+  .right .btn a{
+    margin-top: 10px;
+  }
+
+  .bottom center{
+    padding: 5px;
+    font-size: 0.9375rem;
+    background: #151515;
+  }
+  .bottom center span{
+    color: #656565;
+  }
+  .bottom center a{
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.5s all;
+  }
+  .bottom center a:hover{
+    color: red;
+  }
+  @media screen and (max-width: 900px) {
+    footer{
+      position: relative;
+      bottom: 0px;
+    }
+    .main-content{
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .main-content .box{
+      margin: 5px 0;
+    }
+  }
+  
+
+  /*=========================CARDS-INFO================================*/
+
+  #card1{
+      box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.299);
+  }
+
+  #card2{
+    box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.299);
+}
+#cara1{
+    border-radius: 50%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.7);
+}
+
+.btn2 a{
+    width: 15rem;
+}
+.btn2 a:hover{
+    color: black;
+    background-color: white;
+}
