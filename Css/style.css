@@ -429,7 +429,7 @@ body::-webkit-scrollbar-thumb{
 
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
-@media (max-width:1200px){
+@media (max-width:1280px){
 
     #TXT-INDEX{
         padding: 0px !important;
@@ -769,6 +769,13 @@ body::-webkit-scrollbar-thumb{
      
 }
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/ 
+@media (max-width: 320px) {
+    .Container-piletas #carouselExampleIndicators{
+        width: 20rem !important;
+    }
+
+}
+
 
 @media (max-width: 576px) {
   
@@ -883,6 +890,8 @@ body::-webkit-scrollbar-thumb{
     
     
 }
+
+
 
 
 /*=========================KEYFRAMES================================*/
