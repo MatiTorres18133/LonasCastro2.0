@@ -121,6 +121,7 @@ body::-webkit-scrollbar-thumb{
 .cards-trabajos5{
     margin-bottom: 10rem;
     display: flex;
+    
   
     
 }
@@ -769,17 +770,33 @@ body::-webkit-scrollbar-thumb{
      
 }
 /*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/ 
+
+
 @media (max-width: 320px) {
+    .Up{
+        margin-bottom: 0.5rem !important;
+    }
+    
+
     .Container-piletas #carouselExampleIndicators{
         width: 20rem !important;
     }
+
+}
+@media (max-width: 375px) {
+    .Up{
+        margin-bottom: 5rem !important;
+    }
+
 
 }
 
 
 @media (max-width: 576px) {
   
-  
+    .Up{
+        margin-bottom: 2rem !important;
+    }
 
     
     
@@ -1124,4 +1141,26 @@ footer{
 .btn2 a:hover{
     color: black;
     background-color: white;
+}
+
+
+.Up{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.Up:hover{
+    background-color: #000;
+
 }
