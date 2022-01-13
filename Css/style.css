@@ -186,7 +186,7 @@ body::-webkit-scrollbar-thumb{
 
 .cards-trabajos2{
     margin-bottom: 200px;
-    
+    padding-bottom: 100px !important;
     
     display: flex;
   
@@ -272,6 +272,27 @@ body::-webkit-scrollbar-thumb{
 #titulo-formulario {
     color: #3f3f3f;
 }
+
+#equipo{
+    padding-top: 50px !important;
+   
+}
+.bg-paralax{
+    background: linear-gradient(rgba(5, 7, 12, 0.544), rgba(5, 7, 12, 0.51)), url('../IMG/glamping/GL1.jpeg')  no-repeat center center ;
+
+   
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bg-pileas{
+    background:  url('../IMG/BG.png')  no-repeat center center ;
+
+    padding-bottom: 30px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 
 #equipo2{
     background: url('../IMG/BG.png') #000 no-repeat center center ;
@@ -1164,3 +1185,7 @@ footer{
     background-color: #000;
 
 }
+
+
+
+/*=========================LOADER================================*/
