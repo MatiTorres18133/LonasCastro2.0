@@ -417,7 +417,9 @@ body::-webkit-scrollbar-thumb{
 .Container-piletas{
     
     
-    
+    background: url('../IMG/BG.png') #000 no-repeat center center ;
+   
+    background-size: cover;
     margin-bottom: 100px;
 }
 
